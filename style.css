@@ -1,0 +1,36 @@
+.top-ad-bar {
+    text-align:center;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+
+.no-left-padding {
+    padding-left:0;
+}
+
+.black-nav {
+    background-color: #292D30;
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+
+.city-weather {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #99A1A5;
+}
+
+.weather-temp {
+    color: white;
+    font-size:34px;
+    padding-left:5px;
+}
+
+.get-forecast {
+    color: #FFA100;
+    font-size:11px;
+    padding-top:10px;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color:white;
+}
