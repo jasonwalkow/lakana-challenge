@@ -1,3 +1,7 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
 .top-ad-bar {
     text-align:center;
     margin-top: 10px;
@@ -9,13 +13,24 @@
 }
 
 .black-nav {
-    background-color: #292D30;
+    background: #292D30; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#292D30, #1d2022); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#292D30, #1d2022); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#292D30, #1d2022); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#292D30, #1d2022); /* Standard syntax */
     padding-top: 20px;
     padding-bottom:20px;
 }
 
+.blue-nav {
+    background-color: #2096C6; 
+    margin-left:-1px;
+    margin-right:-1px;
+    margin-top:-1px;
+}
+
 .city-weather {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Roboto Slab', 'Times New Roman', Times, serif;
     color: #99A1A5;
 }
 
@@ -32,5 +47,51 @@
 }
 
 .navbar-default .navbar-nav>li>a{
+    color:white;
+    text-transform: uppercase;
+    font-size:12px;
+    letter-spacing:2px;
+    padding: 15px 25px;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+    color:#FFA100;
+}
+
+.search-btn {
+    background-image:none;
+    background-color: #FFA100;
+    border-radius:0px;
+    border-color: #FFA100;
+    margin-left:-5px;
+}
+
+.block-header {
+    background-color: #F2F2F2;
+    padding:5px;
+    padding-left: 15px;
+}
+
+.block-header h4 {
+    font-weight:700;
+    color: #3B3F40;
+}
+
+.top-stories-headline {
+    font-family: 'Roboto Slab', 'Times New Roman', Times, serif;
+    color:#3B3F40;
+    border-bottom: 1px solid #F2F2F2;
+    padding:7px 15px;
+    margin-bottom:none;
+}
+
+.top-stories-headline a:hover {
+    text-decoration: none;
+    color:#FFA100;
+}
+
+.more-top-stories {
+    background-color: #394144;
+    height:132px;
     color:white;
 }
