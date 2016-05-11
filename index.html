@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Channel 4000</title>
     <script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
     <!-- Latest compiled and minified CSS -->
@@ -17,20 +18,20 @@
 </head>
 <body>   
     <div class="container-fluid" style="padding-left:0; padding-right:0;">
-        <div class="top-ad-bar col-xs-12">
-            <img src="simmons_ad.png">
+        <div class="top-ad-bar col-xs-12 text-center">
+            <img src="img/simmons_ad.png" style="width:100%;">
         </div>
         <div class="row">
             <div class="col-xs-12 black-nav">
                 <div class="col-xs-12 col-md-4">
-                    <img src="channel_4000_logo.png" style="padding-top:10px;">
+                    <img src="img/channel_4000_logo.png" class="channel-4000-logo" style="padding-top:10px;">
                 </div>
-                <div class="col-xs-8 col-md-6">
+                <div class="col-xs-12 col-md-6 forecast-block">
                     <div class="col-xs-4 text-center" style="border-right: 2px solid #404548; padding:0;">
                         <p class="city-weather">Minneapolis</p>
                         <div class="row">
                             <div class="col-xs-6 text-right" style="padding-right:0;">
-                                <img src="sunny_cloud.png">
+                                <img src="img/sunny_cloud.png">
                             </div>
                             <div class="col-xs-6 text-left" style="padding-left:0;">
                                 <span class="weather-temp">24&deg;</span>
@@ -42,7 +43,7 @@
                         <p class="city-weather">Rochester</p>
                         <div class="row">
                             <div class="col-xs-6 text-right" style="padding-right:0;">
-                                <img src="sunny_cloud.png">
+                                <img src="img/sunny_cloud.png">
                             </div>
                             <div class="col-xs-6 text-left" style="padding-left:0;">
                                 <span class="weather-temp">21&deg;</span>
@@ -54,7 +55,7 @@
                         <p class="city-weather">Duluth</p>
                         <div class="row">
                             <div class="col-xs-6 text-right" style="padding-right:0;">
-                                <img src="sunny_cloud.png">
+                                <img src="img/sunny_cloud.png">
                             </div>
                             <div class="col-xs-6 text-left" style="padding-left:0;">
                                 <span class="weather-temp">-5&deg;</span>
@@ -63,10 +64,10 @@
                         <p class="get-forecast">GET FORECAST ></p>
                     </div>
                 </div>
-                <div class="col-xs-4 col-md-2" style="color:white;">
+                <div class="col-xs-12 col-md-2 account-date" style="color:white;">
                     <div class="row">
                         <div class="col-xs-3 no-left-padding">
-                            <img src="profile_icon.png" style="width:40px;">
+                            <img src="img/profile_icon.png" style="width:40px;">
                         </div>
                         <div class="col-xs-9 no-left-padding">
                             <p style="margin-bottom:0;">Login</p>
@@ -74,8 +75,13 @@
                         </div>
                     </div>
                     <div class="row" style="font-family: Georgia, 'Times New Roman', Times, serif; margin-top:10px; font-size: 16px;">
-                        <p style="margin-bottom:0;">Wednesday,</p>
-                        <p>February 3, 2015</p>
+                        <p class="hidden-sm hidden-md hidden-lg" style="margin-bottom:0;">Wednesday, February 3, 2015</p>
+                        <div class="hidden-xs">
+                            <p style="margin-bottom:0;">Wednesday,</p>
+                            <p>February 3, 2015</p>
+                            
+                        </div>
+                        
                     </div>                    
                 </div>
             </div>
@@ -117,13 +123,13 @@
             </nav>
         </div>  
         <div class="row" style="margin-right:15px; margin-left:15px;">
-            <div class="col-xs-12 col-md-8">
+            <div class="col-xs-12 col-md-8 featured-top-stories">
                 <div class="block-header">
                     <h4>Featured Top Stories</h4>                    
                 </div>
-                <img src="top-stories-shot.png" style="width:100%;">
+                <img src="img/top-stories-shot.png" style="width:100%;">
             </div>
-            <div class="col-xs-12 col-md-4">
+            <div class="col-xs-12 col-md-4 top-stories">
                 <div class="block-header">
                     <h4>Top Stories</h4>
                 </div>
@@ -134,52 +140,52 @@
                 <p class="top-stories-headline">Freed Al Jazeera journalist is 'very happy'</p>
                 <p class="top-stories-headline">Northeast gets second winter blast in a week</p>
                 <p class="top-stories-headline" style="color:#2096C6;border-bottom:none;"><a href="#" style="color:#2096C6;">More Top Stories ></a></p>
-                <img src="city_kia_ad.png" style="width:100%;margin-top:10px;">
+                <img src="img/city_kia_ad.png" style="width:100%;margin-top:10px;">
             </div>
         </div>  
         <div class="row" style="margin-top:15px;margin-bottom:15px;">
             <div class="more-top-stories">
-                <div class="col-xs-2">
-                    <h3 style="padding-left:50px;padding-top:40px;margin-top:0px;line-height:30px;">More Top Stories</h3>
+                <div class="col-xs-4 col-md-2">
+                    <h3 class="more-top-headline">More Top Stories</h3>
                 </div>
-                <div class="col-xs-10">
-                    <div class="col-xs-2" style="height:135px;">
+                <div class="col-xs-8 col-md-10">
+                    <div class="col-xs-12 col-md-2" style="height:135px;">
                         <h5 class="more-title-tag">NEWS</h5>
                         <h5 class="more-news">Jordan executes prisoners after ISIS video</h5>
                         <h5 class="more-time">16 MINUTES AGO</h5>
                     </div>
-                    <div class="col-xs-2" style="height:135px;">
+                    <div class="hidden-xs col-md-2" style="height:135px;">
                         <h5 class="more-title-tag">NEWS</h5>
                         <h5 class="more-news">Plane hits bridge, crashes into river</h5>
                         <h5 class="more-time">25 MINUTES AGO</h5>
                     </div>
-                    <div class="col-xs-2" style="height:135px;">
+                    <div class="hidden-xs col-md-2" style="height:135px;">
                         <h5 class="more-title-tag">NEWS</h5>
                         <h5 class="more-news">O'Reilly, others slams Sen. Paul</h5>
                         <h5 class="more-time">1 HOUR AGO</h5>
                     </div>
-                    <div class="col-xs-2" style="height:135px;">
+                    <div class="hidden-xs col-md-2" style="height:135px;">
                         <h5 class="more-title-tag" style="color:#FFA100;">ENTERTAINMENT</h5>
                         <h5 class="more-news">Sony: The 'Interview' hack won't hurt our earnings</h5>
                         <h5 class="more-time">32 MINUTES AGO</h5>
                     </div>
-                    <div class="col-xs-2" style="height:135px;">
+                    <div class="hidden-xs col-md-2" style="height:135px;">
                         <h5 class="more-title-tag" style="color:#8DBF4F;">SPORTS</h5>
                         <h5 class="more-news">Kentucky unanimous No. 1 again</h5>
                         <h5 class="more-time">45 MINUTES AGO</h5>
                     </div>
-                    <div class="col-xs-2 text-center" style="height:135px;">
+                    <div class="col-xs-2 text-center hidden-xs" style="height:135px;">
                         <span class="glyphicon glyphicon-menu-right" aria-hidden="true" style="color:white; position:absolute; top:40px; left:50px; font-size:55px;"></span>
                     </div>
                 </div>
             </div>            
         </div>  
         <div class="row" style="margin-right:15px; margin-left:15px;">
-            <div class="col-xs-12 col-md-5">
+            <div class="col-xs-12 col-md-5 local-news">
                 <div class="block-header">
                     <h4>Local News</h4>                    
                 </div>
-                <img src="mcdonalds_shot.png" style="width:100%;">
+                <img src="img/mcdonalds_shot.png" style="width:100%;">
                 <p class="top-stories-headline" style="padding-top:15px;">France arrests 8 with alleged jihadist links</p>
                 <p class="top-stories-headline">CNN investigation finds security gap at...</p>
                 <p class="top-stories-headline">Why Chinese call Katy Perry 'Fruit Sister'</p>
@@ -187,9 +193,9 @@
                 <p class="top-stories-headline">Eyeing 2016, Walker adds veteran options</p>
                 <p class="top-stories-headline">Clinton slaps GOP with pro-vaccine tweet</p>
                 <p class="top-stories-headline" style="color:#2096C6;border-bottom:none;"><a href="#" style="color:#2096C6;">More Local News Stories ></a></p>
-                <img src="twitter_feed_shot.png" style="width:100%;">
+                <img src="img/twitter_feed_shot.png" style="width:100%;">
             </div>
-            <div class="col-xs-12 col-md-3" style="background-color:#F2F2F2;padding:0;">
+            <div class="col-xs-12 col-md-3 topics" style="background-color:#F2F2F2;padding:0;">
                 <div class="block-header">
                     <h4>Topics</h4>
                 </div>
@@ -205,7 +211,7 @@
                         <li><a href="#">Local</a></li>
                     </ul>
                 </div>
-                <img src="isis_footprint_shot.png" style="width:100%; padding:15px;">
+                <img src="img/isis_footprint_shot.png" style="width:100%; padding:15px;">
                 <p class="top-stories-headline">The threat of ISIS is growing in certain areas despite the setbacks from U.S. led airstrikes a top intelligence official said Tuesday. <span class="more-link">More ></span></p>
                 <p class="top-stories-headline">Man posts exes' reviews in dating profile man posts exes' reviews in dating profile</p>
                 <p class="top-stories-headline">The most memorable moments at the Super Bowl man posts exes' reviews in dating profile</p>
@@ -216,7 +222,7 @@
             <div class="col-xs-12 col-md-4">
                 <div class="block-header">
                     <span class="text-left" style="font-weight:700; color:#3B3F40; font-size:18px;">Trending</span>
-                    <img src="trove_logo.png" style="position:absolute;right:30px;">
+                    <img src="img/trove_logo.png" style="position:absolute;right:30px;">
                 </div>
                 <p class="top-stories-headline" style="border-left: 10px solid #DD4B3A; padding-top:15px; padding-bottom:15px;margin-top:15px;margin-bottom:5px;">
                     <span class="trending-title">U.S. Mulls Sending Lethal Aid to Kiev</span>
@@ -230,7 +236,7 @@
                     <span class="trending-title">U.S. Mulls Sending Lethal Aid to Kiev</span>
                     Russia keeps sending volunteers. So, the U.S., which currently supplies Ukraine...<span class="more-link">More ></span>
                 </p>
-                <img src="envision_ad.png" style="width:100%; padding:15px;">
+                <img src="img/envision_ad.png" style="width:100%; padding:15px;">
                 <div class="poll-box">
                     <h3 style="font-size:22px; margin-top:0px;">Poll</h3>
                     <h3 style="font-size:22px; margin-top:0px;">What was your favorite part of the big game on Sunday?</h3>
@@ -246,42 +252,45 @@
             <div class="col-xs-12">
                 <div class="block-header">
                     <h4>Channel 4 Featured Video</h4>  
-                    <img src="video_shot.png" style="width:100%;">                  
+                    <img src="img/video_shot.png" style="width:100%;">                  
                 </div>
             </div>
         </div>
         <div class="row" style="margin:15px;">
-            <div class="col-xs-12 text-center">
+            <div class="col-xs-12">
                 <div class="block-header" style="margin-bottom:15px;">
                     <h4>Channel 4 News Cubes</h4>                                       
                 </div>
                 <div class="col-xs-12 col-md-6" style="padding:0;">
                     <div class="col-xs-12" style="padding:5px;">
-                        <img src="eva_shot.png" style="width:100%">
+                        <img src="img/eva_shot.png" style="width:100%">
                     </div>
                     <div class="col-xs-6" style="padding:5px;">
-                        <img src="sapd_shot.png" style="width:100%">
+                        <img src="img/sapd_shot.png" style="width:100%">
                     </div>
                     <div class="col-xs-6" style="padding:5px;">
-                        <img src="sapd_shot.png" style="width:100%">
+                        <img src="img/sapd_shot.png" style="width:100%">
                     </div>
                 </div> 
                 <div class="col-xs-12 col-md-6" style="padding:0;">
                     <div class="col-xs-6" style="padding:5px;">
-                        <img src="district_shot.png" style="width:100%">
+                        <img src="img/district_shot.png" style="width:100%">
                     </div>
                     <div class="col-xs-6" style="padding:5px;">
-                        <img src="cartoonists_shot.png" style="width:100%">
+                        <img src="img/cartoonists_shot.png" style="width:100%">
                     </div>
                     <div class="col-xs-12" style="padding:5px;">
-                        <img src="paris_shot.png" style="width:100%">
+                        <img src="img/paris_shot.png" style="width:100%">
                     </div>
                 </div>
-                <button class="load-more-btn">Load More</button>
+                <div class="col-xs-12 text-center">
+                    <button class="load-more-btn">Load More</button>
+                </div>
+                
             </div>
         </div>
         <div class="row">
-            <img src="footer_shot.png" style="width:100%;">
+            <img src="img/footer_shot.png" style="width:100%;">
         </div>
     </div>   
 </body>

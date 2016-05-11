@@ -173,3 +173,35 @@ body {
     padding:10px 15px;
     margin:15px;
 }
+
+.more-top-headline {
+    padding-left:50px;
+    padding-top:40px;
+    margin-top:0px;
+    line-height:30px;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 768px) {
+  .channel-4000-logo {
+      width:100%;
+      margin-bottom:30px;
+  }
+  .forecast-block {
+      margin-bottom:30px;
+  }
+  .account-date {
+      text-align: center;
+  }
+  .featured-top-stories,
+  .top-stories,
+  .local-news,
+  .topics {
+      margin-bottom:15px;
+  }
+  .more-top-headline {
+      padding-left:10px;
+      padding-top:35px;
+  }
+}
