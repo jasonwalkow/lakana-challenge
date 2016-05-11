@@ -92,6 +92,84 @@ body {
 
 .more-top-stories {
     background-color: #394144;
-    height:132px;
+    height:135px;
     color:white;
+}
+
+.more-title-tag {
+    color:#2096C6;
+    font-weight:bold;
+    font-size:12px;
+    padding-top:15px; 
+    margin-top:0px;
+}
+
+.more-news {
+    font-size:15px;
+}
+
+.more-time {
+    color:#FFA100; 
+    position:absolute; 
+    bottom:15px;
+    margin-bottom:0px;
+    font-size:12px;
+}
+
+.white-dropdown {
+    background-image:none;
+    background-color:white;
+    border-radius:0px;
+    width:100%;
+    font-family: 'PT Sans', sans-serif;
+    color:#7A8486;
+    font-size:12px;
+}
+
+.more-link {
+    font-family: 'Roboto Slab', 'Times New Roman', Times, serif;
+    color: #2096C6;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color:white;
+}
+
+.navbar-default .navbar-toggle .icon-bar:hover {
+    background-color: #FFA100;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.trending-title {
+    display:block; 
+    font-family: 'PT Sans', sans-serif;
+    font-weight:bold;
+    font-size:18px;
+}
+
+.poll-box {
+    background-color: #2096C6;
+    padding:15px;
+    color:white;
+}
+
+.poll-options {
+    font-family: 'Roboto Slab', 'Times New Roman', Times, serif;
+    font-size:16px;
+}
+
+.load-more-btn {
+    background-color: #2096C6;
+    color:white;
+    font-size:22px;
+    border:none;
+    padding:10px 15px;
+    margin:15px;
 }
